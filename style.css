@@ -1,23 +1,19 @@
-/* .body {
+.container {
     height: 100vh;
     display: grid;
     justify-content: center;
+    align-content: top;
 }
 
 .item {
-    display: grid;
-    justify-items: center;
+    text-align: center;
 }
 
 .logo {
     margin-top: 100px;
 }
 
-.input {
-    margin-top: 20px;
-}
-
-.button {
+.space {
     margin-top: 20px;
 }
 
@@ -39,4 +35,4 @@ input,
 select,
 textarea {
     color: #5b5b5b;
-} */
+}
