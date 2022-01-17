@@ -1,50 +1,117 @@
-.container {
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-content: top;
-}
-
-.item {
-    text-align: center;
-}
-
-.logo {
-    margin-top: 100px;
-}
-
-.logo.search {
-    width: 150px;
-}
-
-.space {
-    margin-top: 20px;
-}
-
-button {
-    background-color: #4285f3;
-    border-radius: 4px;
-    color: white;
-    border: 1px solid rgb(38, 49, 202);
-    height: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 14px;
-}
-
-button:hover {
-    background-color: #5998ff;
-}
-
-input {
-    width: 400px;
-    border: 1px solid #c4c4c4;
-    height: 25px;
-    border-radius: 25px;
-}
-
-input,
-select,
-textarea {
-    color: #5b5b5b;
-}
+    .container {
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-content: top;
+    }
+    
+    .item {
+        text-align: center;
+    }
+    
+    .logo.search {
+        width: 150px;
+        margin-top: 100px;
+    }
+    
+    .space {
+        margin-top: 20px;
+    }
+    
+    button {
+        background-color: #4285f3;
+        border-radius: 4px;
+        color: white;
+        border: 1px solid rgb(38, 49, 202);
+    }
+    
+    button.search {
+        font-size: 14px;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    button.research {
+        font-size: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    button:hover {
+        background-color: #5998ff;
+    }
+    
+    input {
+        width: 400px;
+        border: 1px solid #c4c4c4;
+        border-radius: 25px;
+    }
+    
+    input.search {
+        height: 25px;
+    }
+    
+    input.research {
+        height: 100%;
+        box-sizing: border-box;
+        margin-right: 20px;
+    }
+    
+    form.research {
+        height: 100%;
+    }
+    
+    input,
+    select,
+    textarea {
+        color: #5b5b5b;
+    }
+    
+    .research_page {
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .small_links {
+        font-size: 12px;
+    }
+    
+    .result {
+        margin-bottom: 40px;
+    }
+    
+    .result_number {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .logo.research {
+        margin-right: 30px;
+    }
+    
+    .search_bar {
+        height: 60px;
+        border-bottom: 1px solid #c4c4c4;
+    }
+    
+    .search_bar_element {
+        height: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        box-sizing: border-box;
+        float: left;
+    }
+    
+    .results {
+        margin-left: 140px;
+        width: 700px;
+    }
