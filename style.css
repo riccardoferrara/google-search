@@ -56,6 +56,8 @@
         height: 100%;
         box-sizing: border-box;
         margin-right: 20px;
+        width: calc(100% - 300px);
+        min-width: 100px;
     }
     
     form.research {
@@ -103,11 +105,15 @@
     .logo.research {
         margin-right: 30px;
         margin-left: 8px;
+        height: inherit;
     }
     
     .search_bar {
         height: 60px;
+        width: 100%;
         border-bottom: 1px solid #c4c4c4;
+        display: inline-grid;
+        grid-template-columns: auto 1fr;
     }
     
     .search_bar_element {
@@ -115,12 +121,12 @@
         padding-top: 10px;
         padding-bottom: 10px;
         box-sizing: border-box;
-        float: left;
+        /* float: left; */
     }
     
     .results {
         margin-left: 140px;
-        width: 700px;
+        max-width: 700px;
     }
     
     .small_links {
